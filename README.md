@@ -8,6 +8,18 @@
 Prepare PDF for initial submission of a manuscript.
 
 ## Features
+
+- line numbering
+- single- and double-spacing
+- short author list and running title in header
+- 1/N page numbering
+- biblatex 
+
+## Sample of first page
+![Screenshot 2024-10-11 at 2 03 26 PM](https://github.com/user-attachments/assets/d210a8d0-632a-4515-a2ca-761c13a40fb0)
+
+
+## Contents
 - typst source file template
 - biblatex file
 - sample PDF
