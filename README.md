@@ -16,7 +16,7 @@ Prepare PDF for initial submission of a manuscript.
 - biblatex 
 
 ## Sample of first page
-![Screenshot 2024-10-11 at 2 03 26 PM](https://github.com/user-attachments/assets/d210a8d0-632a-4515-a2ca-761c13a40fb0)
+![Screenshot 2024-10-11 at 6 22 40 PM](https://github.com/user-attachments/assets/0ec9db2c-64a2-4737-8971-f9cc406a3978)
 
 
 ## Contents
