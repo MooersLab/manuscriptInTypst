@@ -13,7 +13,11 @@ Prepare PDF for initial submission of a manuscript.
 - single- and double-spacing
 - short author list and running title in header
 - 1/N page numbering
-- biblatex 
+- biblatex
+- example
+  + figure
+  + table
+  + equation 
 
 ## Sample of first page
 
