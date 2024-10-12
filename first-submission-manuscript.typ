@@ -10,7 +10,7 @@
 #show figure: set par.line(numbering: none)
 
 // Set the title use for reuse in the running title and the main title page.
-#let title = [Snippets for manuscript preparation with typst]
+#let title = [Template for manuscript preparation with typst]
 
 
 // I have yet to figure out how to put the short author list on the left.
