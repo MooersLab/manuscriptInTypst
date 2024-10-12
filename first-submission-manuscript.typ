@@ -97,11 +97,58 @@ No one has ever complained about this paragraphy although most authors skip it.
 == Hot result number one
 
 
+Tables have to be wrapped in a figure function (see @progress) to add a caption.
+I put the label at the end of the caption.
+Tables are numbered separately from figures.
+You do not have to take any special measures.
+You may have to move the table to the back of the paper, depending on the author guidelines.
+
+#figure(
+ table(
+  columns: (auto, auto, auto),
+  inset: 10pt,
+  align: horizon,
+  table.header(
+    [*Milestone*], [*Traget date*], [*Achievement data*],),
+    [milestone 1], [date], [date],
+    [milestone 2], [date], [date],
+    [milestone 3], [date], [date]
+ ),
+    caption: [Milestones and dates.]
+)<progress>
+
+
 == Hot result number two
+
+With regard to figures (see @words), typst does not handle PDF nor Tiff.
+You have to convert them to SVG or to one of the bitmap formats:  PNG, GIF, or JPG.
+Note the absence of support of postscript or encapsulated postscript.
+Many journals accept these only these latter formats for the final submission.
+Be prepared to make your figures in multiple formats.
+
+
+#figure(
+  image("words10.png", width: 80%),
+  caption: [A curious figure.],
+)<words>
 
 
 == Hot result number three
 
+Equations can be numbered and shown in display mode (@ratio).
+The math equation fuction allows you to control the placement of the equation number.
+
+#set math.equation(numbering: "(1)")
+
+$ phi.alt = (1 + sqrt(5)) / 2 $ <ratio>
+
+Can we add a caption to the equation by wrapping it in a figure @bragg? Not really. It is called a figure when it is an equation.
+
+
+#figure(
+    $ 2 upright(d) sin theta = upright(n) lambda $,
+    caption: [Caption of the equation.],
+)<bragg>
 
 
 == Hot result number four
