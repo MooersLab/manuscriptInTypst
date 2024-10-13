@@ -34,6 +34,8 @@ Prepare PDF for initial submission of a manuscript.
 
 - typst version 0.12.0 (pre-release from GitHub site, required for line numbers) 
 
+If you use tinymist, you will need the correspondng prerelease version.
+
 ## Bash or zsh function to project initiation (optional)
 
 Paste into whereever you store your bash functions (.e.g., .bashrc or .bashFunctions sourced from .bashrc).
@@ -54,7 +56,8 @@ fi
 projectID="$1"
 echo "Write manuscript to manu$1.typ file."
 cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/first-submission-manuscript.typ manu$1.typ
-cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/first-submission.bib manu$1.bib
+cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/first-submission.bib .
+cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/words10.png .
 }
 
 function mantyp {
@@ -71,7 +74,8 @@ fi
 projectID="$1"
 echo "Write manuscript to manu$1.typ file."
 cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/first-submission-manuscript.typ manu$1.typ
-cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/first-submission.bib manu$1.bib
+cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/first-submission.bib .
+cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/words10.png .
 say 'The manuscript template has been copied.'
 }
 ```
