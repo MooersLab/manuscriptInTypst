@@ -56,16 +56,21 @@ Note the format of the page numbers in the lower right.
 
 If you use tiny mist, you will need the corresponding prerelease version.
 
-## Easy use
+## Easy-peasy use
 
 Run in typst.app on-line or run via tinymist (e.g., `tinymist preview classic.typ`) while classic.typ is open in any text editor.
 The rendered version will appear in your default browser.
 It updates with each save operation in the text editor.
 
+Compile to PDF by entering in terminal `typst compile <filename>.typ`.
+
 ## Bash or zsh function to project initiation (optional)
 
-Paste into whereever you store your bash functions (.e.g., .bashrc or .bashFunctions sourced from .bashrc).
-Customized the filepaths to meet your needs.
+Paste into where ever you store your bash functions (.e.g., .bashrc or .bashFunctions sourced from .bashrc).
+Customize the file paths to meet your needs.
+Default to opening the classic variant. 
+This is what most biology journals expect.
+In computer science, use the arvix-like variant.
 
 ```bash
 function typman {
