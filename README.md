@@ -5,13 +5,13 @@
 
 ## Purpose
 
-Prepare PDF for initial submission of a manuscript by using typst, a typesetting system written in Rust. Typst compiles small documents faster than LaTeX. This project is developed enough to support preparing manuscripts of journal articles for first submission. Its support for edge cases is underdeveloped.
+Prepare PDF for initial manuscript submission by using typst, a typesetting system written in Rust. Typst compiles small documents faster than LaTeX. This project has been developed enough to support the preparation of manuscripts of journal articles for the first submission. Its support for edge cases is underdeveloped.
 
 ## Features
 - Barebones (i.e., no template file) for simplicity
 - Two variants: classic and arvix-like.
 - Line numbering
-- Short author list and running title in header. This supports editing printed copies of multiple manuscripts while travelling.
+- Short author list, running title, and date printed in the header. This supports editing printed copies of multiple manuscripts while traveling.
 - 1/N page numbering
 - Biblatex (sorry, not support for BibTeX).
 - example
@@ -41,7 +41,7 @@ Note the format of the page numbers in the lower right.
 ## Sample of first page of arvix-like variant
 
 
-<img width="1582" alt="Screenshot 2024-10-11 at 10 06 08 PM" src="https://github.com/user-attachments/assets/c37c819f-6199-4092-bfaf-4d6a115b1f76">
+![arvix-like](https://github.com/user-attachments/assets/523f2054-25ec-4f05-8e47-58637fa97b07)
 
 
 ## Contents
