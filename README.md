@@ -81,7 +81,7 @@ elif [ $# -gt 1 ]; then
 fi
 projectID="$1"
 echo "Write manuscript to manu$1.typ file."
-cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/first-submission-manuscript.typ manu$1.typ
+cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/classic-first-submission-manuscript.typ manu$1.typ
 cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/first-submission.bib .
 cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/words10.png .
 }
@@ -99,7 +99,7 @@ elif [ $# -gt 1 ]; then
 fi
 projectID="$1"
 echo "Write manuscript to manu$1.typ file."
-cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/first-submission-manuscript.typ manu$1.typ
+cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/classic-first-submission-manuscript.typ manu$1.typ
 cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/first-submission.bib .
 cp  ~/6112MooersLabGitHubLabRepos/manuscriptInTypst/words10.png .
 say 'The manuscript template has been copied.'
