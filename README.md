@@ -5,7 +5,7 @@
 
 ## Purpose
 
-Prepare PDF for initial submission of a manuscript.
+Prepare PDF for initial submission of a manuscript by using typst, a typesetting system written in Rust. Typst compiles small documents faster than LaTeX. This project is developed enough to support preparing manuscripts of journal articles for first submission. Its support for edge cases is underdeveloped.
 
 ## Features
 - Two variants: classic and arvix.
