@@ -12,10 +12,11 @@
 // Set the title use for reuse in the running title and the main title page.
 #let title = [Template for manuscript preparation with typst]
 
+#let running = [Student, ..., and Mooers;                    Running Title #datetime.today().display()]
 
 // I have yet to figure out how to put the short author list on the left.
 #set page(
-    header: align(center, [Student, ..., and Mooers;     Running Title]),
+    header: align(center, running),
   numbering: "1 / 1",
   number-align: right,
 )
