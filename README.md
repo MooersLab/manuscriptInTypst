@@ -29,6 +29,8 @@ The footnote with the corresponding author's contact information is not shown.
 
 The abstract is on the second page.
 The Introduction starts on the third page.
+Note the short author list and running title in the header.
+Note the format of the page numbers in the lower right.
 
 <img width="1264" alt="Introduction" src="https://github.com/user-attachments/assets/410b025e-0b8b-4d3a-b673-2d7095d85041">
 
