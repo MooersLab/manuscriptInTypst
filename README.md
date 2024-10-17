@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=manuscriptInTypst&message=0.2&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=manuscriptInTypst&message=0.3&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # First submission manuscript template in typst
@@ -27,13 +27,16 @@ The footnote with the corresponding author's contact information is not shown.
 
 ## Sample Introduction page of classic variant
 
-<img width="1264" alt="Introduction" src="https://github.com/user-attachments/assets/410b025e-0b8b-4d3a-b673-2d7095d85041">
-
 The abstract is on the second page.
 The Introduction starts on the third page.
 
+<img width="1264" alt="Introduction" src="https://github.com/user-attachments/assets/410b025e-0b8b-4d3a-b673-2d7095d85041">
 
-## Sample of first page of arvix variant
+
+
+
+## Sample of first page of arvix-like variant
+
 
 <img width="1582" alt="Screenshot 2024-10-11 at 10 06 08 PM" src="https://github.com/user-attachments/assets/c37c819f-6199-4092-bfaf-4d6a115b1f76">
 
@@ -48,7 +51,13 @@ The Introduction starts on the third page.
 
 - typst version 0.12.0 (pre-release from GitHub site, required for line numbers) 
 
-If you use tinymist, you will need the correspondng prerelease version.
+If you use tiny mist, you will need the corresponding prerelease version.
+
+## Easy use
+
+Run in typst.app on-line or run via tinymist (e.g., `tinymist preview classic.typ`) while classic.typ is open in any text editor.
+The rendered version will appear in your default browser.
+It updates with each save operation in the text editor.
 
 ## Bash or zsh function to project initiation (optional)
 
@@ -94,7 +103,9 @@ say 'The manuscript template has been copied.'
 }
 ```
 
+## Use in Emacs
 
+Install the `typst-ts-mode` package beforehand.
 
 
 ## Update history
@@ -102,7 +113,8 @@ say 'The manuscript template has been copied.'
 |Version       |Changes                                                                                               |Date                 |
 |:-------------|:-----------------------------------------------------------------------------------------------------|:--------------------|
 | Version 0.1  | Initiate project. Added badges, funding, and update table.                                           | 2024 October 11     |
-| Version 0.2  | Added bash function to ease initiating new manuscript in typst.                                           | 2024 October 13     |
+| Version 0.2  | Added bash function to ease initiating new manuscript in typst.                                      | 2024 October 13     |
+| Version 0.3  | Added classic version.                                                                               | 2024 October 17     |
 
 ## Sources of funding
 
