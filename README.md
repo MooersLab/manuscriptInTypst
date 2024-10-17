@@ -8,9 +8,8 @@
 Prepare PDF for initial submission of a manuscript.
 
 ## Features
-
+- Two variants: classic and arvix.
 - line numbering
-- single- and double-spacing
 - short author list and running title in header
 - 1/N page numbering
 - biblatex
@@ -19,7 +18,22 @@ Prepare PDF for initial submission of a manuscript.
   + table
   + equation 
 
-## Sample of first page
+## Sample title page of classic variant
+
+<img width="1200" alt="title" src="https://github.com/user-attachments/assets/5e05a7ea-429c-4388-8726-f939069ed0bf">
+
+The footnote with the corresponding author's contact information is not shown.
+
+
+## Sample Introduction page of classic variant
+
+<img width="1264" alt="Introduction" src="https://github.com/user-attachments/assets/410b025e-0b8b-4d3a-b673-2d7095d85041">
+
+The abstract is on the second page.
+The Introduction starts on the third page.
+
+
+## Sample of first page of arvix variant
 
 <img width="1582" alt="Screenshot 2024-10-11 at 10 06 08 PM" src="https://github.com/user-attachments/assets/c37c819f-6199-4092-bfaf-4d6a115b1f76">
 
