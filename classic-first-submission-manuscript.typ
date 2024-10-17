@@ -7,13 +7,21 @@
 
 #show figure: set par.line(numbering: none)
 
-#let running = [Classic Template #datetime.today().display()]]
+#let running = [Classic Template #datetime.today().display()]
 
 
 #let title = [Classic Generic First Submission Journal Article in Typst]
 
 
 #align(center, text(17pt)[
+     #linebreak()
+     #linebreak()
+      #linebreak()
+      #linebreak()
+      #linebreak()
+       #linebreak()
+       #linebreak()
+       #linebreak()
   *#title*
 ])
 
@@ -32,7 +40,11 @@
 
 #set footnote(numbering: "*")
 #align(center, text(11pt)[
+   #linebreak()
+    #linebreak()
+    #linebreak()
   #firstauthor#super[1], #secondauthor#super[2], #thirdauthor#super[3], and #seniorauthor#super[1,2,3]#footnote[Corresponding author: blaine-mooers at ouhsc.edu, phone: 405-271-8300, FAX: 405-271-????]
+  #linebreak()
   #linebreak()
   #linebreak()
   #super[1]#affil1
@@ -42,20 +54,17 @@
     #linebreak()
         #linebreak()
   #super[3]#affil3
+   #linebreak()
+    #linebreak()
+  #datetime.today().display()
 ])
-
-
-
-// \author[1,2,3]{Blaine Mooers\thanks{blaine-mooers at ouhsc.edu, phone: 405-271-8XXX, FAX: 405-271-3X3X}}
-
-
 
 
 #pagebreak()
 
 // I have yet to figure out how to put the short author list on the left.
 #set page(
-    header: align(center, [Student, ..., and Mooers;     *#running*]),
+     header:[ Student, ..., and Mooers #h(1fr) #running],
   numbering: "1 / 1",
   number-align: right,
 )
