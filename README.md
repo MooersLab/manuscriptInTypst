@@ -21,7 +21,7 @@ Prepare PDF for initial submission of a manuscript by using typst, a typesetting
 
 ## Sample title page of classic variant
 
-<img width="1200" alt="title" src="https://github.com/user-attachments/assets/5e05a7ea-429c-4388-8726-f939069ed0bf">
+![ClassicTitle](https://github.com/user-attachments/assets/5f5e2da9-a764-4a19-8c9f-0dea23cc9298)
 
 The footnote with the corresponding author's contact information is not shown.
 
@@ -30,10 +30,10 @@ The footnote with the corresponding author's contact information is not shown.
 
 The abstract is on the second page.
 The Introduction starts on the third page.
-Note the short author list and running title in the header.
+Note the short author list, running title, and today's date in the header.
 Note the format of the page numbers in the lower right.
 
-<img width="1264" alt="Introduction" src="https://github.com/user-attachments/assets/410b025e-0b8b-4d3a-b673-2d7095d85041">
+![ClassicIntroduction](https://github.com/user-attachments/assets/1f7bd37f-e2a4-4407-ac05-beaa75386b9e)
 
 
 
