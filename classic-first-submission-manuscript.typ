@@ -7,7 +7,7 @@
 
 #show figure: set par.line(numbering: none)
 
-#let running = [Classic Template]
+#let running = [Classic Template #datetime.today().display()]]
 
 
 #let title = [Classic Generic First Submission Journal Article in Typst]
