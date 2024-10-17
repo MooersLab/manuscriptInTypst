@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=manuscriptInTypst&message=0.3&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=manuscriptInTypst&message=0.5&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 # First submission manuscript template in typst
@@ -118,11 +118,11 @@ Install the `typst-ts-mode` package beforehand.
 
 ## Update history
 
-|Version       |Changes                                                                                               |Date                 |
-|:-------------|:-----------------------------------------------------------------------------------------------------|:--------------------|
-| Version 0.1  | Initiate project. Added badges, funding, and update table.                                           | 2024 October 11     |
-| Version 0.2  | Added bash function to ease initiating new manuscript in typst.                                      | 2024 October 13     |
-| Version 0.3  | Added classic version.                                                                               | 2024 October 17     |
+|Version       |Changes                                                                                                                  |Date                         |
+|:-------------|:------------------------------------------------------------------------------------------------------------|:--------------------------|
+| Version 0.1  | Initiate project. Added badges, funding, and update table.                                  | 2024 October 11     |
+| Version 0.2  | Added bash function to ease initiating new manuscript in typst.                          | 2024 October 13     |
+| Version 0.3  | Added classic version.  Added date to running title. Centered title on title page  | 2024 October 17     |
 
 ## Sources of funding
 
