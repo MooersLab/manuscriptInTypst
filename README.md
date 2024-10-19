@@ -46,15 +46,15 @@ Note the format of the page numbers in the lower right.
 
 ## Contents
 - typst source file template
-- biblatex file
+- BibLATeX file
 - sample PDF
 
 
 ## Requirements
 
-- typst version 0.12.0 (pre-release from GitHub site, required for line numbers) 
+- typst version 0.12.0 (required for line numbers, released October 18, 2024) 
 
-If you use tiny mist, you will need the corresponding prerelease version.
+If you use tinymist, you will need the corresponding version, release October 19, 2024.
 
 ## Easy-peasy use
 
@@ -63,6 +63,46 @@ The rendered version will appear in your default browser.
 It updates with each save operation in the text editor.
 
 Compile to PDF by entering in terminal `typst compile <filename>.typ`.
+
+## Bash or zsh function to compile and open in Preview.app on Mac (optional)
+
+Typst compiles the *.typfile so quickly that you might as well pop open the PDF: `typc <filename prefix>`.
+
+```bash
+function typc {
+echo "Compile typst file to PDF and display PDF file."
+if [ $# -lt 1 ]; then
+  echo 1>&2 "$0: not enough arguments"
+  echo "Usage1: typc <filename prefix>"
+  return 2
+elif [ $# -gt 1 ]; then
+  echo 1>&2 "$0: too many arguments"
+  echo "Usage1: typc  <typst filename prefix>"
+  return 2
+fi
+typst compile $1.typ && pre $1.pdf
+}
+```
+
+## Bash or zsh function to preview typst file with tinymist (optional)
+
+Yes, I hate typing: `tmp <typst filename prefix>"
+
+```bash
+function tmp {
+echo "Preview typst file in browser via tinymist."
+if [ $# -lt 1 ]; then
+  echo 1>&2 "$0: not enough arguments"
+  echo "Usage1: tmp <filename prefix>"
+  return 2
+elif [ $# -gt 1 ]; then
+  echo 1>&2 "$0: too many arguments"
+  echo "Usage1: typc  <filename prefix>"
+  return 2
+fi
+tinymist preview $1.typ
+}
+```
 
 ## Bash or zsh function to project initiation (optional)
 
