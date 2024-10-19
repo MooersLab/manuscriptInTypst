@@ -62,7 +62,6 @@
 
 #pagebreak()
 
-// I have yet to figure out how to put the short author list on the left.
 #set page(
      header:[ Student, ..., and Mooers #h(1fr) #running],
   numbering: "1 / 1",
