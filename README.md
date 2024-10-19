@@ -62,7 +62,7 @@ Run in typst.app on-line or run via tinymist (e.g., `tinymist preview classic.ty
 The rendered version will appear in your default browser.
 It updates with each save operation in the text editor.
 
-Compile to PDF by entering in terminal `typst compile <filename>.typ`.
+Compile to PDF by entering in terminal `typst compile <typst filename prefix>.typ`.
 
 ## Bash or zsh function to compile and open in Preview.app on Mac (optional)
 
