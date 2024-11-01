@@ -1,7 +1,10 @@
 ![Version](https://img.shields.io/static/v1?label=manuscriptInTypst&message=0.4&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-# First submission manuscript template in typst
+# First submission manuscript template in Typst
+
+A nice introduction to Typst in October 2024 by Dr. Chase Brown of the University of Central Florida is found [here](https://mediasite.ouhsc.edu/Mediasite/Channel/python/browse/null/most-recent/null/0/null).
+
 
 ## Purpose
 
